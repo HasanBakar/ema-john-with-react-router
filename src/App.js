@@ -21,10 +21,12 @@ function App() {
         },
         {
           path:'/Shop',
+          loader:() => fetch('products.json'),
           element:<Shop></Shop>
         },
         {
           path:'/Orders',
+          loader: ()=> fetch('products.json'),
           element:<Orders></Orders>
         },
         {
