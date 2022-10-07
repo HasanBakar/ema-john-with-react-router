@@ -1,0 +1,23 @@
+.review-item {
+    display: flex;
+    align-items: center;
+    border: 2px solid goldenrod;
+    width: 527px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.review-item img {
+    width: 91px;
+    margin: 8px;
+}
+
+.review-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-details p {
+    margin: 0;
+}
