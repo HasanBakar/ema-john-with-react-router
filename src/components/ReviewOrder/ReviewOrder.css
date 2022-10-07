@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     border: 2px solid goldenrod;
+    border-radius: 8px;
     width: 527px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 21px auto;
+
 }
 
 .review-item img {
@@ -14,10 +15,35 @@
 
 .review-details-container {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 
 .review-details p {
     margin: 0;
+}
+
+/* delete btn icon */
+.delete-btn {
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(287, 87, 87, 0.3);
+}
+
+.delete-btn:hover {
+    background-color: #d72222;
+    cursor: pointer;
+}
+
+.delete-icon {
+    color: #EB5757;
+    font-size: 31px;
+}
+
+.delete-icon:hover {
+    color: aliceblue;
 }
